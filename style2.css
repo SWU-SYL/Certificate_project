@@ -1,0 +1,14 @@
+table {
+    /* background-color: gray; */
+    border: 1px solid;
+  }
+  th {
+    border-bottom: 2px double;
+    width: 200px;
+    text-align: center;
+  }
+  td {
+    border-right: 1px solid;
+    width: 200px;
+    text-align: center;
+  }

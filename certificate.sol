@@ -48,7 +48,7 @@ contract certificate {
             uint _notAfter
         )
         {
-            return (Cert[_id].addr, Cert[_id].name, Cert[_id].birth, Cert[_id].notBefore, Cert[_id].notAfter)
+            return (Cert[_id].addr, Cert[_id].name, Cert[_id].birth, Cert[_id].notBefore, Cert[_id].notAfter);
         }
 
     function getCertificateList() public view returns (uint[] memory ){
