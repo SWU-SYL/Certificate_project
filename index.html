@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="bundle.js" defer></script>
+  </head>
+  <body>
+    <article class="info">
+      <h1>Accounts Info</h1>
+      <div>
+        Accounts :
+        <select name="accounts" class="accounts"></select>
+        Balance : <span id="balance"></span>
+      </div>
+    </article>
+    <hr />
+    <article class="func">
+      <h1>개인정보 등록하기</h1>
+      <p>인증서 발급을 위해 개인정보를 입력해주세요.</p>
+      <!-- <div>
+        From:
+        <select name="" class="accounts" id="fromAddr"></select>
+      </div>
+      <div>
+        To:
+        <select name="" class="accounts" id="toAddr"></select>
+      </div> -->
+      <div>
+          아이디:
+          <input type="text" name="" id="id"/>
+      </div>
+      <div>
+        비밀번호:
+        <input type="password" name="" id="password" />
+      </div>
+      <div>
+        이름:
+        <input type="text" name="" id="name" />
+      </div>
+      <div>
+        생년월일 (ex. 20000410):
+        <input type="text" name="" id="birth" />
+      </div>
+      <input type="button" value="등록하기" class="Btn" id="sendBtn" />
+    </article>
+    <hr />
+    <article>
+      <pre id="log"></pre>
+    </article>
+  </body>
+</html>
